@@ -1,0 +1,10 @@
+{
+  "id": "timer",
+  "name": "Countdown timer",
+  "version": "0.1.0",
+  "entry": "widgets/timer/index.js",
+  "permissions": [
+    "none"
+  ],
+  "description": "A shared countdown shown on the projector."
+}
