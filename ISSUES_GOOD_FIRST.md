@@ -1,5 +1,7 @@
 # Good first issues
 
+**English** · [Română](ISSUES_GOOD_FIRST.ro.md) · [Français](ISSUES_GOOD_FIRST.fr.md) · [Italiano](ISSUES_GOOD_FIRST.it.md) · [Español](ISSUES_GOOD_FIRST.es.md) · [Português](ISSUES_GOOD_FIRST.pt.md) · [Deutsch](ISSUES_GOOD_FIRST.de.md) · [Magyar](ISSUES_GOOD_FIRST.hu.md)
+
 - [ ] Specify the widget API (mount/unmount, send/on, lifecycle) in docs/widget-api.md
 - [ ] Add a poll widget (multiple choice, live bar chart)
 - [ ] Add a quiz widget compatible with Undava quiz files
