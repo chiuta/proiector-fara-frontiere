@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Last updated: 2026-11-13
 
+🌐 https://proiector-fara-frontiere.chiuta.ro
+
 > Turn classroom phones into a shared screen over local WebRTC — no server, with plugin widgets.
 
 Trade-free: no tracking, no ads, no accounts, works offline.

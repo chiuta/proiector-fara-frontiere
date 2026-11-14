@@ -4,6 +4,8 @@
 
 Version : 0.1.0 · Dernière mise à jour : 2026-11-13
 
+🌐 https://proiector-fara-frontiere.chiuta.ro
+
 > Transformez les téléphones d'une classe en écran partagé via WebRTC local — sans serveur, avec widgets-plugins.
 
 Trade-free : sans suivi, sans publicité, sans compte, fonctionne hors ligne.

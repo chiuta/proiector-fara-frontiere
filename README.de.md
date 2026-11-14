@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Letzte Aktualisierung: 2026-11-13
 
+🌐 https://proiector-fara-frontiere.chiuta.ro
+
 > Verwandle Handys im Klassenzimmer in einen gemeinsamen Bildschirm per lokalem WebRTC – ohne Server, mit Plugin-Widgets.
 
 Trade-free: kein Tracking, keine Werbung, keine Konten, funktioniert offline.

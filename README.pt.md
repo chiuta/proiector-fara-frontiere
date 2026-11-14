@@ -4,6 +4,8 @@
 
 Versão: 0.1.0 · Última atualização: 2026-11-13
 
+🌐 https://proiector-fara-frontiere.chiuta.ro
+
 > Transforme os telemóveis da sala num ecrã partilhado via WebRTC local — sem servidor, com widgets plugin.
 
 Trade-free: sem rastreamento, sem anúncios, sem contas, funciona offline.

@@ -4,6 +4,8 @@
 
 Versión: 0.1.0 · Última actualización: 2026-11-13
 
+🌐 https://proiector-fara-frontiere.chiuta.ro
+
 > Convierte los teléfonos del aula en una pantalla compartida con WebRTC local — sin servidor, con widgets plugin.
 
 Trade-free: sin rastreo, sin anuncios, sin cuentas, funciona sin conexión.

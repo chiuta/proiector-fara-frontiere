@@ -4,6 +4,8 @@
 
 Verzió: 0.1.0 · Utolsó frissítés: 2026-11-13
 
+🌐 https://proiector-fara-frontiere.chiuta.ro
+
 > Az osztálytermi telefonokból közös képernyő helyi WebRTC-vel – szerver nélkül, plugin-widgetekkel.
 
 Trade-free: nincs követés, nincs reklám, nincs fiók, offline is működik.

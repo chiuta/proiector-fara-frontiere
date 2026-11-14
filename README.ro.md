@@ -4,6 +4,8 @@
 
 Versiune: 0.1.0 · Ultima actualizare: 2026-11-13
 
+🌐 https://proiector-fara-frontiere.chiuta.ro
+
 > Transformă telefoanele din clasă într-un ecran comun prin WebRTC local — fără server, cu widgeturi-plugin.
 
 Fără comerț (trade-free): fără urmărire, fără reclame, fără conturi, funcționează offline.
