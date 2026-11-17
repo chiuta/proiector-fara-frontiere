@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "slug": "proiector-fara-frontiere",
+  "name": "Proiector fără frontiere — Turn classroom phones into a shared screen over local WebRTC — no server, with plugin widgets",
+  "version": "0.2.0",
+  "updated": "2026-11-17",
+  "description": "Turn classroom phones into a shared screen over local WebRTC — no server, with plugin widgets",
+  "egress": [],
+  "permissions": [
+    "clipboard",
+    "serviceWorker",
+    "localStorage",
+    "Web Crypto",
+    "WebGL"
+  ],
+  "storageKeys": [],
+  "sizeBytes": 670987,
+  "sha256": "fc6eefe3b0c94fd6714957ca86116cb72340abb9c930bd382dad3e14bd4f37ff",
+  "csp": {
+    "present": true,
+    "directives": {
+      "default-src": "'none'",
+      "script-src": "sha256×12",
+      "style-src": "sha256×4",
+      "img-src": "'self' data:",
+      "base-uri": "'none'",
+      "form-action": "'none'",
+      "manifest-src": "'self'",
+      "worker-src": "'self'"
+    },
+    "scriptInline": "hash",
+    "connect": "'none'"
+  },
+  "features": {
+    "export": true,
+    "import": true,
+    "i18n": [
+      "ro",
+      "en",
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "hu",
+      "de"
+    ],
+    "pwa": {
+      "manifest": true,
+      "serviceWorker": true
+    },
+    "modules": [
+      "core",
+      "store",
+      "dialog",
+      "view",
+      "a11y",
+      "share",
+      "qr",
+      "p2p"
+    ]
+  },
+  "kit": {
+    "version": "1.8.0",
+    "modules": [
+      "core",
+      "store",
+      "dialog",
+      "view",
+      "a11y",
+      "share",
+      "qr",
+      "p2p"
+    ]
+  },
+  "selfSerializing": false
+}

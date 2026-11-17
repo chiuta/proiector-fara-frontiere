@@ -1,0 +1,36 @@
+/* PROIECTOR FĂRĂ FRONTIERE · sandbox.css — stilul comun al widgeturilor (se aplică DOAR în iframe-ul izolat; în pagina-gazdă blocul este inert: media="not all").
+   Fără atribute style= (CSP): culorile pe telefon vin prin variabila --c setată din CSSOM. Fără flex-gap/inset (browsere mai vechi). */
+html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+html, body { margin: 0; height: 100%; }
+:root { --bg: #ffffff; --fg: #111111; --mut: #4a4a4a; --card: #f1f4f8; --bd: #7c8796; --acc: #0b5cad; --acc-fg: #ffffff; --ok: #0a6b2d; --bad: #a4161a; --warn: #7a4b00; --fs: 1; }
+html.t-dark { --bg: #121417; --fg: #f2f4f7; --mut: #c9ced6; --card: #1d2127; --bd: #8a94a3; --acc: #7cc0ff; --acc-fg: #04121f; --ok: #6fdc8c; --bad: #ff8a8f; --warn: #ffcf70; }
+html.t-hc { --bg: #000000; --fg: #ffffff; --mut: #ffffff; --card: #000000; --bd: #ffffff; --acc: #ffe600; --acc-fg: #000000; --ok: #00ff6a; --bad: #ff7b7b; --warn: #ffe600; }
+html.t-xl { --fs: 1.4; }
+body { background: var(--bg); color: var(--fg); font: 400 calc(1rem * var(--fs)) / 1.45 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; overflow: auto; -webkit-tap-highlight-color: transparent; }
+#root { box-sizing: border-box; min-height: 100%; padding: 12px 14px 18px; display: flex; flex-direction: column; }
+h2, h3 { margin: 0 0 8px; line-height: 1.2; }
+h2 { font-size: calc(1.35rem * var(--fs)); }
+h3 { font-size: calc(1.1rem * var(--fs)); }
+p { margin: 0 0 8px; }
+.pfs-row { display: flex; flex-wrap: wrap; align-items: center; }
+.pfs-row > * { margin: 0 8px 8px 0; }
+.pfs-col { display: flex; flex-direction: column; }
+.pfs-grow { flex: 1 1 auto; min-height: 0; }
+.pfs-card { background: var(--card); border: 2px solid var(--bd); border-radius: 12px; padding: 12px 14px; margin: 0 0 12px; }
+.pfs-btn { font: inherit; font-weight: 700; min-height: 44px; min-width: 44px; padding: 8px 16px; border-radius: 10px; border: 2px solid var(--bd); background: var(--card); color: var(--fg); cursor: pointer; touch-action: manipulation; }
+.pfs-btn.pri { background: var(--acc); color: var(--acc-fg); border-color: var(--acc); }
+.pfs-btn[disabled] { opacity: .5; cursor: not-allowed; }
+.pfs-btn[aria-pressed="true"] { background: var(--acc); color: var(--acc-fg); border-color: var(--acc); }
+input, textarea, select { font: inherit; color: var(--fg); background: var(--bg); border: 2px solid var(--bd); border-radius: 8px; padding: 8px 10px; min-height: 44px; box-sizing: border-box; max-width: 100%; }
+textarea { width: 100%; resize: vertical; }
+label { display: block; font-weight: 700; margin: 0 0 4px; }
+button:focus, input:focus, textarea:focus, select:focus, [tabindex]:focus { outline: 3px solid var(--acc); outline-offset: 2px; }
+.pfs-sr { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.pfs-muted { color: var(--mut); }
+.pfs-bad { color: var(--bad); font-weight: 700; }
+.pfs-ok { color: var(--ok); font-weight: 700; }
+.pfs-big { font-weight: 800; font-size: calc(4.2rem * var(--fs)); line-height: 1.05; font-variant-numeric: tabular-nums; }
+.pfs-chip { display: inline-block; width: 1em; height: 1em; border-radius: 50%; border: 2px solid var(--fg); background: var(--c, #999999); vertical-align: -0.15em; margin-right: .4em; box-sizing: border-box; }
+.pfs-tag { display: inline-block; padding: 1px 8px; border: 2px solid var(--bd); border-radius: 999px; font-size: calc(.85rem * var(--fs)); font-weight: 700; }
+html[data-locked] .pfs-in { opacity: .55; pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

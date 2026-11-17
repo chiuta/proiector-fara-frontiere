@@ -1,0 +1,14 @@
+{
+  "slug": "proiector-fara-frontiere",
+  "version": "0.2.0",
+  "updated": "2026-11-17",
+  "data": "data/widgets",
+  "sandbox": {
+    "widgets": "widgets",
+    "boot": "src/sandbox.js",
+    "css": "src/sandbox.css"
+  },
+  "pwa": {
+    "categories": ["education", "utilities", "productivity"]
+  }
+}

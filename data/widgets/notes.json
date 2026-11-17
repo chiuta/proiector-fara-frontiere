@@ -1,0 +1,44 @@
+{
+  "id": "notes",
+  "name": "Sticky notes",
+  "version": "0.2.0",
+  "entry": "widgets/notes/index.js",
+  "permissions": [
+    "download"
+  ],
+  "description": "Phones send short notes that appear on the shared board. The teacher can remove any note and save all notes as a text file.",
+  "i18n": {
+    "ro": {
+      "name": "Bilețele",
+      "description": "Telefoanele trimit bilețele scurte care apar pe panoul comun. Profesorul poate șterge orice bilețel și poate salva toate bilețelele într-un fișier text."
+    },
+    "en": {
+      "name": "Sticky notes",
+      "description": "Phones send short notes that appear on the shared board. The teacher can remove any note and save all notes as a text file."
+    },
+    "fr": {
+      "name": "Notes collantes",
+      "description": "Les téléphones envoient de courtes notes qui apparaissent sur le tableau commun. L’enseignant peut retirer n’importe quelle note et enregistrer toutes les notes dans un fichier texte."
+    },
+    "de": {
+      "name": "Haftnotizen",
+      "description": "Die Handys senden kurze Notizen, die an der gemeinsamen Tafel erscheinen. Die Lehrkraft kann jede Notiz entfernen und alle Notizen als Textdatei speichern."
+    },
+    "es": {
+      "name": "Notas adhesivas",
+      "description": "Los teléfonos envían notas cortas que aparecen en el panel común. El docente puede quitar cualquier nota y guardar todas en un archivo de texto."
+    },
+    "it": {
+      "name": "Note adesive",
+      "description": "I telefoni inviano brevi note che compaiono sulla bacheca comune. L’insegnante può rimuovere qualsiasi nota e salvarle tutte in un file di testo."
+    },
+    "hu": {
+      "name": "Cetlik",
+      "description": "A telefonok rövid cetliket küldenek, amelyek megjelennek a közös táblán. A tanár bármelyik cetlit törölheti, és az összeset szövegfájlba mentheti."
+    },
+    "pt": {
+      "name": "Notas adesivas",
+      "description": "Os telefones enviam notas curtas que aparecem no painel comum. O professor pode remover qualquer nota e guardar todas num ficheiro de texto."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.tm-wrap { align-items: center; justify-content: center; flex: 1 1 auto; text-align: center; }
+.tm-time { font-size: 20vw; line-height: 1; }
+@media (orientation: landscape) { .tm-time { font-size: 26vh; } }
+.tm-meter { width: 80%; max-width: 900px; height: 16px; border: 2px solid var(--bd); border-radius: 9px; overflow: hidden; margin: 14px 0 6px; }
+.tm-fill { height: 100%; width: 100%; background: var(--acc); }
+.tm-msg { min-height: 1.5em; font-size: calc(1.6rem * var(--fs)); margin: 4px 0; }
+.is-done .tm-time { color: var(--bad); animation: tm-flash 1s 3; }
+@keyframes tm-flash { 50% { opacity: .3; } }
+.tm-ctl { margin-top: 10px; }
+.tm-only { text-align: center; }
+.tm-ctl input { width: 6em; }

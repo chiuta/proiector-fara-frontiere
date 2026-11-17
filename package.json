@@ -1,0 +1,16 @@
+{
+  "name": "proiector-fara-frontiere",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Turn classroom phones into one shared screen: sandboxed activities, no server, no account.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check && python3 scripts/validate.py"
+  }
+}

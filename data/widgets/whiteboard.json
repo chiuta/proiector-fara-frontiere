@@ -1,0 +1,45 @@
+{
+  "id": "whiteboard",
+  "name": "Whiteboard",
+  "version": "0.2.0",
+  "entry": "widgets/whiteboard/index.js",
+  "permissions": [
+    "drawing",
+    "download"
+  ],
+  "description": "A shared drawing board: every phone draws in its own colour and everyone sees the strokes live. Save the result as an image.",
+  "i18n": {
+    "ro": {
+      "name": "Tablă comună",
+      "description": "O tablă de desen comună: fiecare telefon desenează în culoarea lui și toți văd liniile în direct. Salvează rezultatul ca imagine."
+    },
+    "en": {
+      "name": "Whiteboard",
+      "description": "A shared drawing board: every phone draws in its own colour and everyone sees the strokes live. Save the result as an image."
+    },
+    "fr": {
+      "name": "Tableau blanc",
+      "description": "Un tableau de dessin partagé : chaque téléphone dessine de sa couleur et tout le monde voit les traits en direct. Enregistrez le résultat en image."
+    },
+    "de": {
+      "name": "Whiteboard",
+      "description": "Eine gemeinsame Zeichentafel: Jedes Handy zeichnet in seiner eigenen Farbe und alle sehen die Striche live. Das Ergebnis lässt sich als Bild speichern."
+    },
+    "es": {
+      "name": "Pizarra",
+      "description": "Una pizarra de dibujo compartida: cada teléfono dibuja con su color y todos ven los trazos en directo. Guarda el resultado como imagen."
+    },
+    "it": {
+      "name": "Lavagna",
+      "description": "Una lavagna da disegno condivisa: ogni telefono disegna col proprio colore e tutti vedono i tratti dal vivo. Salva il risultato come immagine."
+    },
+    "hu": {
+      "name": "Közös tábla",
+      "description": "Közös rajztábla: minden telefon a saját színével rajzol, és mindenki élőben látja a vonalakat. Az eredményt képként mentheted."
+    },
+    "pt": {
+      "name": "Quadro branco",
+      "description": "Um quadro de desenho partilhado: cada telefone desenha na sua cor e todos veem os traços em direto. Guarde o resultado como imagem."
+    }
+  }
+}

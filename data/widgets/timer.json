@@ -1,0 +1,44 @@
+{
+  "id": "timer",
+  "name": "Countdown timer",
+  "version": "0.2.0",
+  "entry": "widgets/timer/index.js",
+  "permissions": [
+    "none"
+  ],
+  "description": "A shared countdown on the projector and on every phone. The teacher sets the time and starts, pauses or resets it.",
+  "i18n": {
+    "ro": {
+      "name": "Temporizator",
+      "description": "O numărătoare inversă comună, pe proiector și pe fiecare telefon. Profesorul stabilește timpul și o pornește, o oprește sau o resetează."
+    },
+    "en": {
+      "name": "Countdown timer",
+      "description": "A shared countdown on the projector and on every phone. The teacher sets the time and starts, pauses or resets it."
+    },
+    "fr": {
+      "name": "Minuteur",
+      "description": "Un compte à rebours partagé sur le projecteur et sur chaque téléphone. L’enseignant règle la durée et le démarre, le met en pause ou le remet à zéro."
+    },
+    "de": {
+      "name": "Countdown-Timer",
+      "description": "Ein gemeinsamer Countdown am Projektor und auf jedem Handy. Die Lehrkraft stellt die Zeit ein und startet, pausiert oder setzt ihn zurück."
+    },
+    "es": {
+      "name": "Temporizador",
+      "description": "Una cuenta atrás compartida en el proyector y en cada teléfono. El docente fija el tiempo y la inicia, la pausa o la reinicia."
+    },
+    "it": {
+      "name": "Timer",
+      "description": "Un conto alla rovescia condiviso sul proiettore e su ogni telefono. L’insegnante imposta il tempo e lo avvia, lo mette in pausa o lo azzera."
+    },
+    "hu": {
+      "name": "Visszaszámláló",
+      "description": "Közös visszaszámlálás a kivetítőn és minden telefonon. A tanár beállítja az időt, elindítja, szünetelteti vagy visszaállítja."
+    },
+    "pt": {
+      "name": "Temporizador",
+      "description": "Uma contagem decrescente partilhada no projetor e em cada telefone. O professor define o tempo e inicia, pausa ou repõe."
+    }
+  }
+}

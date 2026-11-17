@@ -2,15 +2,15 @@
 
 **English** · [Română](ISSUES_GOOD_FIRST.ro.md) · [Français](ISSUES_GOOD_FIRST.fr.md) · [Italiano](ISSUES_GOOD_FIRST.it.md) · [Español](ISSUES_GOOD_FIRST.es.md) · [Português](ISSUES_GOOD_FIRST.pt.md) · [Deutsch](ISSUES_GOOD_FIRST.de.md) · [Magyar](ISSUES_GOOD_FIRST.hu.md)
 
-- [ ] Specify the widget API (mount/unmount, send/on, lifecycle) in docs/widget-api.md
-- [ ] Add a poll widget (multiple choice, live bar chart)
-- [ ] Add a quiz widget compatible with Undava quiz files
-- [ ] Add a sticky-notes widget
-- [ ] Add a drawing/whiteboard widget with per-phone colour
-- [ ] Implement serverless pairing with a QR code and WebRTC offer/answer exchange
-- [ ] Add a widget sandbox (iframe + postMessage) and document the permission model
-- [ ] Test on iOS Safari and Android Chrome; record results in docs/compat.md
-- [ ] Add a teacher 'lock/unlock phones' control
-- [ ] Add a high-contrast + large-font accessibility theme
+- [ ] Test the whole flow on a real iPhone (Safari) and a real Android phone (Chrome) with the checklist in `docs/compat.md`, and add your rows to its table
+- [ ] Try pairing on a home network, on a school or guest Wi-Fi that isolates devices and on a mobile hotspot; record what works and the exact error messages in `docs/compat.md`
+- [ ] Get a real Undava quiz file (or its published specification) and make the quiz importer read it, with a test and a note in `docs/quiz-format.md`
+- [ ] Add a “raise your hand” widget: phones queue up, the projector shows the order and lets the teacher call the next one (permission `none`)
+- [ ] Add an exit-ticket widget: each phone picks a face or a number from 1 to 5 and may add a short comment; the projector shows the totals and the comments, with a CSV export
+- [ ] Add a group-maker widget: the projector splits the connected phones into groups of a chosen size, with a reshuffle button, and each phone is shown its group
+- [ ] Quiz: add a second CSV with every phone’s answer to every question, so the teacher can see who got what wrong
+- [ ] Audit the page with a screen reader (NVDA or VoiceOver) and with the keyboard alone, fix what is not announced or not reachable, and record the result in `docs/compat.md`
+- [ ] Review the machine-written translations of the interface and the widgets (fr, de, es, it, pt, hu) and fix what a native speaker would not say
+- [ ] Extend the hub’s browser test (`tests/proiector.test.mjs`) to ten or more simulated phones drawing at the same time, and report how responsive the projector stays
 
 Create them all on GitHub with `scripts/create_issues.sh` (needs the `gh` CLI).

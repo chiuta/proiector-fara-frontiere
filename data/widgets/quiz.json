@@ -1,0 +1,45 @@
+{
+  "id": "quiz",
+  "name": "Quiz",
+  "version": "0.2.0",
+  "entry": "widgets/quiz/index.js",
+  "permissions": [
+    "storage",
+    "download"
+  ],
+  "description": "Multiple-choice questions with a countdown, answers from every phone and a scoreboard. Import questions from a file or type them in; sets are kept on this device; results save as CSV.",
+  "i18n": {
+    "ro": {
+      "name": "Chestionar",
+      "description": "Întrebări cu variante de răspuns, cu numărătoare inversă, răspunsuri de la fiecare telefon și clasament. Importă întrebări dintr-un fișier sau scrie-le direct; seturile rămân pe acest dispozitiv; rezultatele se salvează ca CSV."
+    },
+    "en": {
+      "name": "Quiz",
+      "description": "Multiple-choice questions with a countdown, answers from every phone and a scoreboard. Import questions from a file or type them in; sets are kept on this device; results save as CSV."
+    },
+    "fr": {
+      "name": "Quiz",
+      "description": "Questions à choix multiples avec compte à rebours, réponses de chaque téléphone et classement. Importez les questions depuis un fichier ou saisissez-les ; les séries restent sur cet appareil ; les résultats s’enregistrent en CSV."
+    },
+    "de": {
+      "name": "Quiz",
+      "description": "Multiple-Choice-Fragen mit Countdown, Antworten von jedem Handy und Rangliste. Fragen aus einer Datei importieren oder eintippen; Sätze bleiben auf diesem Gerät; Ergebnisse lassen sich als CSV speichern."
+    },
+    "es": {
+      "name": "Cuestionario",
+      "description": "Preguntas de opción múltiple con cuenta atrás, respuestas de cada teléfono y clasificación. Importa las preguntas desde un archivo o escríbelas; los conjuntos se quedan en este dispositivo; los resultados se guardan como CSV."
+    },
+    "it": {
+      "name": "Quiz",
+      "description": "Domande a scelta multipla con conto alla rovescia, risposte da ogni telefono e classifica. Importa le domande da un file o scrivile; i set restano su questo dispositivo; i risultati si salvano in CSV."
+    },
+    "hu": {
+      "name": "Kvíz",
+      "description": "Feleletválasztós kérdések visszaszámlálóval, minden telefon válaszával és ranglistával. A kérdéseket fájlból importálhatod vagy beírhatod; a készletek ezen az eszközön maradnak; az eredmény CSV-ként menthető."
+    },
+    "pt": {
+      "name": "Questionário",
+      "description": "Perguntas de escolha múltipla com contagem decrescente, respostas de cada telefone e classificação. Importe as perguntas de um ficheiro ou escreva-as; os conjuntos ficam neste dispositivo; os resultados guardam-se em CSV."
+    }
+  }
+}

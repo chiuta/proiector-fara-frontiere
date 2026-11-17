@@ -1,0 +1,83 @@
+/* PROIECTOR FĂRĂ FRONTIERE · stiluri: cardul din pagină (alegerea rolului) și stratul sesiunii. CSS conservator pentru browsere mai vechi:
+   fără `inset`, fără `gap` pe flex (margini), fără aspect-ratio/dvh/min(); grid doar cu grid-gap + gap. Fără atribute style= (CSP). */
+/* ---- cardul din pagină ---- */
+.pf-roles { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); grid-gap: 16px; gap: 16px; margin: 12px 0 18px; }
+.pf-role { background: var(--card2); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; }
+.pf-role h4 { margin: 0 0 6px; font-size: 1.15rem; }
+.pf-role p { margin: .4em 0; }
+.pf-role label { display: block; margin: 14px 0 4px; font-weight: 650; }
+.pf-in { display: block; width: 100%; box-sizing: border-box; min-height: 44px; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--tx); font: inherit; font-size: 1rem; }
+.pf-in:focus { outline: 3px solid var(--ac); outline-offset: 2px; }
+.pf-warn { margin: 10px 0; padding: 10px 14px; border-radius: 10px; border: 1px solid #b36b00; border-left-width: 6px; }
+.pf-msg { margin: 10px 0; padding: 0 0 0 12px; border-left: 6px solid #d55e00; font-weight: 650; }
+.pf-msg:empty { display: none; }
+.pf-looks { display: flex; flex-wrap: wrap; margin: 4px 0 12px; }
+.pf-chk { display: inline-flex; align-items: center; min-height: 44px; margin: 0 22px 0 0; cursor: pointer; }
+.pf-chk input { width: 22px; height: 22px; margin: 0; }
+.pf-know { margin: .4em 0 0; padding-left: 1.2em; max-width: 68ch; }
+.pf-know li { margin: .5em 0; }
+
+/* ---- stratul sesiunii (fix, peste pagină) ---- */
+.pf-live { position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 2000000000; display: flex; flex-direction: column; box-sizing: border-box; background: var(--bg); color: var(--tx); font-size: 1rem; line-height: 1.4; overflow: hidden; }
+.pf-live *, .pf-live *::before, .pf-live *::after { box-sizing: border-box; }
+.pf-live:focus { outline: none; }
+.pf-live [hidden] { display: none !important; }
+.pf-live button:focus, .pf-live select:focus, .pf-live summary:focus { outline: 3px solid var(--ac); outline-offset: 2px; }
+.pf-bar { flex: 0 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; padding: 6px 12px; background: var(--card); border-bottom: 1px solid var(--line); }
+.pf-id { display: flex; flex-wrap: wrap; align-items: center; margin: 2px 0; }
+.pf-id > * { margin: 2px 12px 2px 0; }
+.pf-badge { display: inline-block; padding: 3px 12px; border-radius: 999px; background: var(--btn); color: var(--btntx); font-weight: 700; font-size: .85em; }
+.pf-state { color: var(--mut); font-size: .95em; }
+.pf-acts-bar { display: flex; flex-wrap: wrap; align-items: flex-start; margin: 2px 0; }
+.pf-acts-bar > * { margin: 3px 0 3px 8px; }
+.pf-btn { min-height: 44px; min-width: 44px; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--card2); color: var(--tx); font: inherit; font-weight: 650; cursor: pointer; touch-action: manipulation; }
+.pf-btn:hover { border-color: var(--ac); }
+.pf-btn[aria-pressed="true"], .pf-btn[aria-expanded="true"], .pf-pri { background: var(--btn); color: var(--btntx); border-color: transparent; }
+.pf-btn[disabled] { opacity: .55; cursor: default; }
+.pf-danger { border-color: #d55e00; border-width: 2px; }
+.pf-sel { min-height: 44px; padding: 6px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--card2); color: var(--tx); font: inherit; max-width: 100%; }
+.pf-look > summary { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--card2); cursor: pointer; font-weight: 650; list-style: none; }
+.pf-look > summary::-webkit-details-marker { display: none; }
+.pf-look[open] > summary { border-color: var(--ac); }
+.pf-lookrow { display: flex; flex-wrap: wrap; padding: 6px 0 2px; }
+.pf-lookrow > * { margin: 3px 6px 3px 0; }
+.pf-main { flex: 1 1 auto; display: flex; min-height: 0; }
+.pf-side { flex: 0 0 24rem; max-width: 42%; overflow: auto; padding: 12px 14px; background: var(--bg2); border-right: 1px solid var(--line); }
+.pf-sec { margin: 0 0 20px; }
+.pf-sec h2 { margin: 0 0 6px; font-size: 1.1em; }
+.pf-note { margin: .3em 0 .7em; color: var(--mut); font-size: .92em; }
+.pf-list { list-style: none; margin: 0; padding: 0; }
+.pf-act { display: block; margin: 0 0 10px; padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
+.pf-act.on { border-color: var(--ac); box-shadow: 0 0 0 2px var(--ac); }
+.pf-actn { display: block; font-size: 1.05em; }
+.pf-actd, .pf-actp { display: block; margin: .25em 0; color: var(--mut); font-size: .92em; }
+.pf-act .pf-btn { margin-top: 8px; }
+.pf-peer { display: flex; flex-wrap: wrap; align-items: center; margin: 0 0 8px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
+.pf-dot { display: inline-block; flex: 0 0 auto; width: 16px; height: 16px; margin-right: 8px; border-radius: 50%; background: var(--tx); border: 2px solid var(--tx); }
+.pf-pn { margin-right: 8px; font-weight: 700; overflow-wrap: anywhere; }
+.pf-tag { display: inline-block; margin: 2px 6px 2px 0; padding: 1px 8px; border: 1px solid var(--line); border-radius: 999px; font-size: .8em; }
+.pf-tag.warn { border-color: #b36b00; }
+.pf-peer .pf-btn { margin: 4px 6px 0 0; font-size: .9em; }
+.pf-stage { flex: 1 1 auto; display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+.pf-holder { flex: 1 1 auto; position: relative; min-height: 0; }
+.pf-holder:empty { display: none; }
+.pf-frame { position: absolute; top: 0; left: 0; display: block; width: 100%; height: 100%; border: 0; background: transparent; }
+.pf-idle { flex: 1 1 auto; display: flex; align-items: center; justify-content: center; margin: 0; padding: 24px; text-align: center; font-size: 1.4em; color: var(--mut); }
+.pf-banner { flex: 0 0 auto; margin: 0; padding: 10px 14px; background: #6a2fb0; color: #fff; font-weight: 700; text-align: center; }
+.pf-toast { position: absolute; left: 12px; right: 12px; bottom: 12px; text-align: center; pointer-events: none; }
+.pf-toast:empty { display: none; }
+.pf-toast { padding: 8px 14px; border: 1px solid var(--ac); border-radius: 10px; background: var(--card); color: var(--tx); font-weight: 650; }
+@media (max-width: 760px) {
+  .pf-main { flex-direction: column; }
+  .pf-side { flex: 0 0 auto; max-width: none; max-height: 45%; border-right: 0; border-bottom: 1px solid var(--line); }
+  .pf-acts-bar > * { margin-left: 0; margin-right: 8px; }
+}
+/* ---- contrast ridicat și text mare (alegeri ale utilizatorului, valabile în strat și în widget) ---- */
+.pf-live.pf-hc { --bg: #000; --bg2: #000; --card: #000; --card2: #000; --line: #fff; --tx: #fff; --mut: #fff; --ac: #ffd54a; --btn: #ffd54a; --btntx: #000; }
+.pf-hc .pf-btn, .pf-hc .pf-sel, .pf-hc .pf-look > summary, .pf-hc .pf-act, .pf-hc .pf-peer { border-width: 2px; border-color: #fff; }
+.pf-hc .pf-btn[aria-pressed="true"], .pf-hc .pf-btn[aria-expanded="true"], .pf-hc .pf-pri { border-color: #ffd54a; }
+.pf-hc .pf-banner { background: #000; color: #ffd54a; border-top: 3px solid #ffd54a; }
+.pf-live.pf-xl { font-size: 1.35rem; }
+.pf-xl .pf-btn, .pf-xl .pf-sel, .pf-xl .pf-look > summary { min-height: 56px; }
+.pf-xl .pf-side { flex-basis: 30rem; }
+@media print { .pf-live { display: none !important; } }

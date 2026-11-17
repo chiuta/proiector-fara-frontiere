@@ -1,10 +1,44 @@
 {
-  "id": "timer",
-  "name": "Countdown timer",
+  "id": "my-widget",
+  "name": "My widget",
   "version": "0.1.0",
-  "entry": "widgets/timer/index.js",
+  "entry": "widgets/my-widget/index.js",
   "permissions": [
     "none"
   ],
-  "description": "A shared countdown shown on the projector."
+  "description": "One sentence on what the activity does for the class.",
+  "i18n": {
+    "en": {
+      "name": "My widget",
+      "description": "One sentence on what the activity does for the class."
+    },
+    "ro": {
+      "name": "Widgetul meu",
+      "description": "O propoziție despre ce face activitatea pentru clasă."
+    },
+    "fr": {
+      "name": "Mon widget",
+      "description": "Une phrase sur ce que l’activité apporte à la classe."
+    },
+    "de": {
+      "name": "Mein Widget",
+      "description": "Ein Satz dazu, was die Aktivität für die Klasse bewirkt."
+    },
+    "es": {
+      "name": "Mi widget",
+      "description": "Una frase sobre lo que la actividad aporta a la clase."
+    },
+    "it": {
+      "name": "Il mio widget",
+      "description": "Una frase su ciò che l’attività offre alla classe."
+    },
+    "hu": {
+      "name": "Saját modulom",
+      "description": "Egy mondat arról, mit ad az osztálynak a tevékenység."
+    },
+    "pt": {
+      "name": "O meu widget",
+      "description": "Uma frase sobre o que a atividade traz à turma."
+    }
+  }
 }

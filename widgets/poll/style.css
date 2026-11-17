@@ -1,0 +1,13 @@
+.pl-q { font-size: calc(1.6rem * var(--fs)); margin: 4px 0 12px; }
+.pl-list { margin: 8px 0; }
+.pl-orow input { flex: 1 1 14em; }
+.pl-chk { display: inline-block; font-weight: 400; }
+.pl-opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(14em, 1fr)); grid-gap: 10px; gap: 10px; margin: 0 0 10px; }
+.pl-opt { text-align: left; padding: 14px 16px; font-size: calc(1.15rem * var(--fs)); }
+.pl-bars { list-style: none; margin: 8px 0; padding: 0; }
+.pl-row { margin: 0 0 14px; }
+.pl-lab { display: flex; justify-content: space-between; flex-wrap: wrap; font-size: calc(1.2rem * var(--fs)); font-weight: 700; }
+.pl-num { font-variant-numeric: tabular-nums; margin-left: 12px; }
+.pl-track { height: 26px; border: 2px solid var(--bd); border-radius: 8px; overflow: hidden; background: var(--bg); }
+.pl-fill { height: 100%; width: 0; background: var(--acc); }
+.pl-fill.mine { background: repeating-linear-gradient(45deg, var(--acc), var(--acc) 8px, var(--fg) 8px, var(--fg) 12px); }

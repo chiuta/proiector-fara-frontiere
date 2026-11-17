@@ -1,0 +1,44 @@
+{
+  "id": "poll",
+  "name": "Live poll",
+  "version": "0.2.0",
+  "entry": "widgets/poll/index.js",
+  "permissions": [
+    "download"
+  ],
+  "description": "Ask a question with several options. Phones vote once; the projector shows the results as they arrive. Results can be saved as CSV.",
+  "i18n": {
+    "ro": {
+      "name": "Sondaj în direct",
+      "description": "Pune o întrebare cu mai multe variante. Telefoanele votează o singură dată; proiectorul arată rezultatele pe măsură ce sosesc. Rezultatele se pot salva ca CSV."
+    },
+    "en": {
+      "name": "Live poll",
+      "description": "Ask a question with several options. Phones vote once; the projector shows the results as they arrive. Results can be saved as CSV."
+    },
+    "fr": {
+      "name": "Sondage en direct",
+      "description": "Posez une question avec plusieurs choix. Les téléphones votent une fois ; le projecteur affiche les résultats au fur et à mesure. Les résultats s’enregistrent en CSV."
+    },
+    "de": {
+      "name": "Live-Umfrage",
+      "description": "Stelle eine Frage mit mehreren Antworten. Die Handys stimmen einmal ab; der Projektor zeigt die Ergebnisse, sobald sie eintreffen. Die Ergebnisse lassen sich als CSV speichern."
+    },
+    "es": {
+      "name": "Encuesta en directo",
+      "description": "Haz una pregunta con varias opciones. Los teléfonos votan una vez; el proyector muestra los resultados a medida que llegan. Los resultados se guardan como CSV."
+    },
+    "it": {
+      "name": "Sondaggio dal vivo",
+      "description": "Fai una domanda con più opzioni. I telefoni votano una volta; il proiettore mostra i risultati man mano che arrivano. I risultati si salvano in CSV."
+    },
+    "hu": {
+      "name": "Élő szavazás",
+      "description": "Tegyél fel kérdést több válaszlehetőséggel. A telefonok egyszer szavaznak; a kivetítő az eredményeket érkezésük szerint mutatja. Az eredmény CSV-ként menthető."
+    },
+    "pt": {
+      "name": "Sondagem em direto",
+      "description": "Faça uma pergunta com várias opções. Os telefones votam uma vez; o projetor mostra os resultados à medida que chegam. Os resultados guardam-se em CSV."
+    }
+  }
+}

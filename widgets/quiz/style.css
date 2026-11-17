@@ -1,0 +1,26 @@
+.qz-q { font-size: calc(1.7rem * var(--fs)); font-weight: 800; margin: 6px 0 12px; overflow-wrap: anywhere; }
+.qz-head { align-items: center; }
+.qz-timer { margin-left: auto; font-size: calc(1.4rem * var(--fs)); font-weight: 800; font-variant-numeric: tabular-nums; }
+.qz-opts { list-style: none; margin: 0 0 12px; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(16em, 1fr)); grid-gap: 10px; gap: 10px; }
+.qz-opts > li { margin: 0; padding: 0; }
+.qz-opt { display: grid; grid-template-columns: auto auto 1fr auto; align-items: center; width: 100%; box-sizing: border-box; text-align: left; padding: 12px 14px; font-size: calc(1.15rem * var(--fs)); border: 2px solid var(--bd); border-radius: 12px; background: var(--card); color: var(--fg); }
+li.qz-opt { display: grid; }
+.qz-opt.is-ok { border-color: var(--ok); box-shadow: inset 0 0 0 3px var(--ok); }
+.qz-sh { font-size: 1.4em; line-height: 1; margin-right: 10px; }
+.qz-lt { font-weight: 800; margin-right: 8px; }
+.qz-tx { overflow-wrap: anywhere; }
+.qz-ct { margin-left: 10px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.qz-bar { grid-column: 1 / -1; display: block; height: 10px; border: 2px solid var(--bd); border-radius: 6px; overflow: hidden; margin-top: 8px; background: var(--bg); }
+.qz-barf { display: block; height: 100%; width: 0; background: var(--acc); }
+.qz-why { color: var(--mut); font-style: italic; margin: 6px 0; }
+.qz-result { margin: 8px 0; }
+.qz-board { list-style: none; margin: 8px 0 0; padding: 0; counter-reset: qz; }
+.qz-board li { display: flex; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--bd); counter-increment: qz; }
+.qz-board li::before { content: counter(qz) "."; width: 2em; font-weight: 800; }
+.qz-nm { flex: 1 1 auto; font-weight: 700; overflow-wrap: anywhere; }
+.qz-sc { font-weight: 800; font-variant-numeric: tabular-nums; margin-left: 10px; }
+.qz-lib { list-style: none; margin: 8px 0; padding: 0; }
+.qz-lib li { display: flex; flex-wrap: wrap; align-items: center; margin: 0 0 6px; }
+.qz-lib li > * { margin-right: 8px; }
+.qz-chk { display: inline-flex; align-items: center; min-height: 44px; font-weight: 400; margin: 0 12px 0 0; }
+.qz-chk input { width: 22px; height: 22px; min-height: 0; margin: 0 8px 0 0; }
