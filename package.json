@@ -1,6 +1,6 @@
 {
   "name": "proiector-fara-frontiere",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "type": "module",
   "description": "Turn classroom phones into one shared screen: sandboxed activities, no server, no account.",
