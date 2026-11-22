@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Versiune: 0.2.1 · Ultima actualizare: 2026-11-20
+Versiune: 0.2.1 · Ultima actualizare: 2026-11-22
 
 🌐 https://proiector-fara-frontiere.chiuta.ro
 
