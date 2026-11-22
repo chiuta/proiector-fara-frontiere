@@ -3,7 +3,7 @@
   "slug": "proiector-fara-frontiere",
   "name": "Proiector fără frontiere — Turn classroom phones into a shared screen over local WebRTC — no server, with plugin widgets",
   "version": "0.2.1",
-  "updated": "2026-11-20",
+  "updated": "2026-11-22",
   "description": "Turn classroom phones into a shared screen over local WebRTC — no server, with plugin widgets",
   "egress": [],
   "permissions": [
@@ -14,8 +14,8 @@
     "WebGL"
   ],
   "storageKeys": [],
-  "sizeBytes": 674493,
-  "sha256": "b25e19c1c0ea8b92d140ea96a956176a961c1097ecaeab5b4277b446b35e1e5a",
+  "sizeBytes": 674553,
+  "sha256": "eecef16f8b210e998f121c18a1d5d4952d9bf0941718a5be5a922ea8c6906477",
   "csp": {
     "present": true,
     "directives": {
@@ -26,7 +26,8 @@
       "base-uri": "'none'",
       "form-action": "'none'",
       "manifest-src": "'self'",
-      "worker-src": "'self'"
+      "worker-src": "'self'",
+      "upgrade-insecure-requests": "''"
     },
     "scriptInline": "hash",
     "connect": "'none'"
